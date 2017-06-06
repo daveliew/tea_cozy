@@ -65,13 +65,18 @@ nav a{
   padding: 20px;
 }
 
-.flex-container{
+#featured{
+  padding-top: 70px;
+}
+
+
+.flex-container-featured{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.flex-container .row{
+.flex-container-featured .row{
   padding: 5px;
 }
 
@@ -80,9 +85,33 @@ nav a{
   margin: 10px;
   display: block;
 }
+
+#locations{
+  height: 500px;
+  background-image: url(../images/img-locations-background.jpg);
+}
+
+#locations h2{
+  padding-top: 70px;
+}
+
+.flex-container-locations{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.location-row{
+  background-color: black;
+  padding: 10px;
+  opacity: 1;
+  flex-basis: 300px;
+  margin: 15px 20px;
+}
+
 .contact{
   text-align: center
-  border: 1px solid red;
+  height: 200px;
 }
 
 footer{
