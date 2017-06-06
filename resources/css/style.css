@@ -1,6 +1,6 @@
 body{
   font-family: Helvetica, Arial, sans-serif;
-  font: 22px;
+  font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
@@ -8,20 +8,27 @@ body{
 }
 
 nav{
-  height: 69px;
+  display: flex;
+  flex-basis: 69px;
   border-bottom: 1px solid seashell;
+  padding: 10px;
+  align-items: center;
 }
 
 nav img{
   height: 50px;
-  margin-left: 10px;
   margin-right: 700px;
 }
 
 span{
-  color: Seashell;
   display: inline-block;
+  position: relative;
   margin-right: 20px;
+}
+
+span a{
+  color: white;
+  text-decoration: underline;
 }
 
 .hero {
@@ -39,6 +46,8 @@ span{
   width: 100%;
   transform: translate(-50%, -50%);
   background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .featured{
